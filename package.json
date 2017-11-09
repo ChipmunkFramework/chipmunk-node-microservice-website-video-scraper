@@ -1,0 +1,33 @@
+{
+  "name": "chipmunk-node-microservice-website-video-scraper",
+  "version": "1.0.0",
+  "description": "Chipmunk Framework node.js microservice website video scraper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChipmunkFramework/chipmunk-node-microservice-website-video-scraper.git"
+  },
+  "keywords": [
+    "chipmunk",
+    "video",
+    "scraper",
+    "youtube-dl"
+  ],
+  "author": "Jean-Nicolas Boulay <jn@yaloub.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChipmunkFramework/chipmunk-node-microservice-website-video-scraper/issues"
+  },
+  "homepage": "https://github.com/ChipmunkFramework/chipmunk-node-microservice-website-video-scraper#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7"
+  }
+}
